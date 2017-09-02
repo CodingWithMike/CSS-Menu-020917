@@ -1,0 +1,31 @@
+.sub-menu {
+	display: none;
+}
+
+#main_menu {
+	background-color: #ffffff;
+}
+#main_menu ul li {
+	display: inline-block;
+	float: left;
+}
+
+#main_menu ul  {
+	list-style-type: none;
+}
+
+#main {
+	clear: both;
+}
+
+#main_menu ul li:hover > ul {
+	display: inline-block;
+	position: absolute;
+	background-color: #ffffff;
+	width: 300px;
+}
+
+.sub-menu li {
+	display: block;
+	width: 100%;
+}
